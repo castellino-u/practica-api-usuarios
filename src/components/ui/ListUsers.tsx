@@ -19,7 +19,7 @@ export const ListUsers = () => {
 
     return (
         //estilamos todas las cartas que aparecen, por eso podemos separar una de otra
-    <div className="flex flex-wrap justify-center gap-8">
+    <div className="flex flex-wrap justify-center gap-8 mt-5">
         {
             users.map((usuario)=>(
                 <CardUsers user={usuario}></CardUsers>
